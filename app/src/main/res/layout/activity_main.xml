@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="20sp">
+
+
+    <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text="App"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="50sp"
+    />
+    <ImageView android:layout_width="400sp"
+               android:layout_height="80sp"
+               android:src="@drawable/buscape"
+               android:layout_gravity="center"
+               android:id="@+id/buscape"
+    />
+    <ImageView android:layout_width="400sp"
+               android:layout_height="80sp"
+               android:src="@drawable/mercadolivre"
+               android:layout_gravity="center"
+               android:id="@+id/mercadolivre"
+    />
+    <ImageView android:layout_width="400sp"
+               android:layout_height="80sp"
+               android:src="@drawable/ebay"
+               android:layout_gravity="center"
+               android:id="@+id/ebay"
+    />
+    <ImageView android:layout_width="400sp"
+               android:layout_height="80sp"
+               android:src="@drawable/webmotors"
+               android:layout_gravity="center"
+               android:id="@+id/webmotors"
+    />
+    <ImageView android:layout_width="400sp"
+               android:layout_height="80sp"
+               android:src="@drawable/magazineluiza"
+               android:layout_gravity="center"
+               android:id="@+id/magazineluiza"
+    />
+    <ImageView android:layout_width="400sp"
+               android:layout_height="80sp"
+               android:src="@drawable/netshoes"
+               android:layout_gravity="center"
+               android:id="@+id/netshoes"
+    />
+    <ImageView android:layout_width="400sp"
+               android:layout_height="80sp"
+               android:src="@drawable/americanas"
+               android:layout_gravity="center"
+               android:id="@+id/americanas"
+    />
+    <ImageView android:layout_width="400sp"
+               android:layout_height="80sp"
+               android:src="@drawable/submarino"
+               android:layout_gravity="center"
+               android:id="@+id/submarino"
+    />
+    <Button android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:text="Sobre"
+    />
+
+</LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
